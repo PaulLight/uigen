@@ -1,0 +1,11 @@
+CLAUDE.md
+CLAUDE.local.md
+.env
+node_modules/
+.next/
+prisma/dev.db
+tsconfig.tsbuildinfo
+.idea/
+*.swp
+*.swo
+src/generated/
