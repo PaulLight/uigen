@@ -5,6 +5,7 @@ node_modules/
 .next/
 prisma/dev.db
 tsconfig.tsbuildinfo
+.playwright-mcp/
 .idea/
 *.swp
 *.swo

@@ -24,7 +24,7 @@ const mockFileSystem = {
 
 beforeEach(() => {
   vi.clearAllMocks();
-  (VirtualFileSystem as any).mockImplementation(() => mockFileSystem);
+  (VirtualFileSystem as any).mockImplementation(function() { return mockFileSystem; });
   mockFileSystem.getAllFiles.mockReturnValue(new Map());
 });
 
